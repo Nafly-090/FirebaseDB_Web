@@ -43,10 +43,10 @@ async function addCollection(name, age, subject) {
 async function getAllColection() {
   const querySnapshot = await getDocs(collection(db, "student"));
   querySnapshot.forEach((doc) => {
-    console.log(`${doc.id} => ${doc.data()}`);
+    console.log(`${doc.id} => ${JSON.stringify(doc.data())}`);
   });
-
 }
+
 
 //addCollection("mufa", 25, "homestudy");
 getAllColection();
