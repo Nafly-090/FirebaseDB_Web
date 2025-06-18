@@ -16,3 +16,5 @@ renamed "Service Account  then " paste it  over project
 
 .....................................
 
+update  this "import { getFirestore, collection,addDoc } from "firebase/firestore";"
+create Add and  read   funtions and checked
