@@ -1,0 +1,18 @@
+node install 
+npm install firebase 
+run "node index.js"
+npm install firebase-admin
+
+......................................
+search it as  url "https://firebase.google.com/docs/firestore/quickstart"
+Initialize Cloud Firestore
+
+......................................
+
+firebase -> project setting -> Service accounts
+
+generate new private key download 
+renamed "Service Account  then " paste it  over project
+
+.....................................
+
